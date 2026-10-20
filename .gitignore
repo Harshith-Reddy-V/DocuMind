@@ -1,0 +1,55 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local Data & SQLite Storage
+data/
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/vector_db/*
+!backend/vector_db/.gitkeep
+
+# Python
+__pycache__/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.egg-info/
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+.pytest_cache/
+backend/.pytest_cache/
+*.py[cod]
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+*.tsbuildinfo
+.vercel
+.netlify
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

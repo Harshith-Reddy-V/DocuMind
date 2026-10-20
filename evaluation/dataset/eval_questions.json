@@ -1,0 +1,261 @@
+[
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What model does the system use?",
+    "type": "in_doc",
+    "expected_answer": "CNN model",
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What learning rate and optimizer are used?",
+    "type": "in_doc",
+    "expected_answer": "AdamW optimizer with an initial learning rate of 0.001",
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What dataset was used for evaluation?",
+    "type": "in_doc",
+    "expected_answer": "RVL-CDIP benchmark dataset",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What accuracy did VisionDocNet achieve?",
+    "type": "in_doc",
+    "expected_answer": "92.4%",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "How many residual layers does VisionDocNet use?",
+    "type": "in_doc",
+    "expected_answer": "12 residual layers",
+    "expected_pages": [
+      1
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "Who invented the convolutional neural network?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What is the capital of France?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "How does gradient boosting differ from random forests?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What image resolution does the model process and what accuracy does it achieve?",
+    "type": "multi_page",
+    "expected_answer": "224x224 and 92.4%",
+    "expected_pages": [
+      1,
+      3
+    ]
+  },
+  {
+    "doc": "paper_1_deep_learning.pdf",
+    "question": "What architecture is proposed and what are its inference limitations?",
+    "type": "multi_page",
+    "expected_answer": "CNN and high memory consumption",
+    "expected_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What is the query complexity of Grover's search algorithm?",
+    "type": "in_doc",
+    "expected_answer": "O(sqrt(N))",
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What physical qubit technology was used in the experiments?",
+    "type": "in_doc",
+    "expected_answer": "superconducting transmon qubits",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What experimental fidelity was reached on the 5-qubit testbed?",
+    "type": "in_doc",
+    "expected_answer": "87.3%",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What physical-to-logical qubit ratio is required for surface codes?",
+    "type": "in_doc",
+    "expected_answer": "exceeding 1000:1",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What mathematical expression defines a single qubit state?",
+    "type": "in_doc",
+    "expected_answer": "|psi> = alpha|0> + beta|1>",
+    "expected_pages": [
+      1
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "How do you build a nuclear fusion reactor?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What is the population of Tokyo?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "Who was the first president of the United States?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "How does superposition relate to Grover's search speedup?",
+    "type": "multi_page",
+    "expected_answer": "superposition and quadratic speedup",
+    "expected_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "doc": "paper_2_quantum_computing.pdf",
+    "question": "What physical system was used and what are its limiting factors?",
+    "type": "multi_page",
+    "expected_answer": "superconducting transmon and decoherence times T1 and T2",
+    "expected_pages": [
+      2,
+      3
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What are the three node states in the Raft consensus algorithm?",
+    "type": "in_doc",
+    "expected_answer": "Follower, Candidate, or Leader",
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What election timeout range is used in Raft to avoid split votes?",
+    "type": "in_doc",
+    "expected_answer": "150ms and 300ms",
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What average failover latency was observed in the 5-node cluster?",
+    "type": "in_doc",
+    "expected_answer": "210ms",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What throughput was achieved with SSD-backed logging?",
+    "type": "in_doc",
+    "expected_answer": "45,000 replicated transactions per second",
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What failure model is assumed in the system?",
+    "type": "in_doc",
+    "expected_answer": "fail-stop model",
+    "expected_pages": [
+      1
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "How do you train a generative adversarial network?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What is the speed of light in vacuum?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "Who wrote the play Hamlet?",
+    "type": "out_of_doc",
+    "expected_answer": null,
+    "expected_pages": []
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "Under the assumed network model, how does Raft handle CAP trade-offs?",
+    "type": "multi_page",
+    "expected_answer": "partially synchronous and consistency over availability (CP)",
+    "expected_pages": [
+      1,
+      3
+    ]
+  },
+  {
+    "doc": "paper_3_distributed_systems.pdf",
+    "question": "What election mechanism does Raft use and what failover speed was achieved?",
+    "type": "multi_page",
+    "expected_answer": "randomized election timeouts and 210ms",
+    "expected_pages": [
+      2,
+      3
+    ]
+  }
+]

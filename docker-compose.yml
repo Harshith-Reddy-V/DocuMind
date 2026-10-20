@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
+      - GEMINI_GENERATION_MODEL=gemini-2.5-flash
+      - GEMINI_EMBEDDING_MODEL=text-embedding-004
+      - UPLOAD_DIR=/app/data/uploads
+      - VECTOR_DB_DIR=/app/data/chroma
+      - DATABASE_URL=sqlite:////app/data/documind.db
+    volumes:
+      - documind_data:/app/data
+
+volumes:
+  documind_data:
